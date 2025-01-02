@@ -3,7 +3,9 @@ model of misconduct with variable inputs (base rates, multipliers, employees)
 
 interactive app available @      https://misconductappdec2024hbsil.streamlit.app/
 
-
+---
+---
+---
 
 
 
@@ -13,7 +15,7 @@ The misconduct model simulates employee behavior over multiple years, focusing o
 
 ---
 
-### Breakdown of Input Variables
+### Input Variables
 
 #### **1. Number of Employees**
 - **Description**: This sets the total number of employees in the organization. 
@@ -52,6 +54,6 @@ The misconduct model simulates employee behavior over multiple years, focusing o
 
 ---
 
-### Conclusion
+### Summary
 
 This misconduct model is a powerful tool for exploring how workplace dynamics and organizational policies shape employee behavior over time. By adjusting key input variables, users can simulate a wide range of scenarios to understand the interplay between individual behavior, leadership influence, and systemic factors. The model not only highlights the importance of ethical leadership and effective policies but also provides actionable insights for mitigating misconduct and fostering a healthier organizational culture.
