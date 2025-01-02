@@ -159,7 +159,7 @@ def compute_cohort_heatmaps(misconduct_df, employees, years):
             heatmaps_with_manager[start_year - 1, future_year - 1] = misconduct_in_future
 
     # Plot heatmaps
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))  # Larger heatmaps for readability
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 6))  # Larger heatmaps for readability
 
     year_labels = [str(i) for i in range(1, years + 1)]  # Remove the word "Year" from labels
 
@@ -194,10 +194,10 @@ st.write(
 # Sidebar Controls
 num_employees = st.sidebar.slider("Number of Employees", 10000, 800000, 200000, step=10000)
 base_misconduct_rate = st.sidebar.slider("Base Misconduct Rate", 0.001, 0.15, 0.01, step=0.001)
-prior_corruption_multiplier = st.sidebar.slider("Prior Corruption Multiplier", 0.05, 0.2, 0.07, step=0.01)
+prior_corruption_multiplier = st.sidebar.slider("Prior Corruption Multiplier", 0.01, 0.2, 0.07, step=0.01)
 manager_corruption_multiplier = st.sidebar.slider("Manager Corruption Multiplier", 0.01, 0.15, 0.03, step=0.01)
 percent_corrupt_managers = st.sidebar.slider("Percent Corrupt Managers", 0.01, 0.2, 0.06, step=0.01)
-promotion_rate = st.sidebar.slider("Promotion Rate", 0.01, 0.08, 0.01, step=0.01)
+promotion_rate = st.sidebar.slider("Promotion Rate", 0.01, 0.15, 0.01, step=0.01)
 years = st.sidebar.slider("Number of Years", 5, 20, 10)
 
 # Run Simulation
