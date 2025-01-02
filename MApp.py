@@ -159,7 +159,7 @@ def compute_cohort_heatmaps(misconduct_df, employees, years):
             heatmaps_with_manager[start_year - 1, future_year - 1] = misconduct_in_future
 
     # Plot heatmaps
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 6))  # Larger heatmaps for readability
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 9))  # Larger heatmaps for readability
 
     year_labels = [str(i) for i in range(1, years + 1)]  # Remove the word "Year" from labels
 
