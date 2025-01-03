@@ -197,7 +197,7 @@ base_misconduct_rate = st.sidebar.slider("Base Misconduct Rate", 0.001, 0.15, 0.
 prior_corruption_multiplier = st.sidebar.slider("Prior Corruption Multiplier", 0.01, 0.2, 0.07, step=0.01)
 manager_corruption_multiplier = st.sidebar.slider("Manager Corruption Multiplier", 0.01, 0.15, 0.03, step=0.01)
 percent_corrupt_managers = st.sidebar.slider("Percent Corrupt Managers", 0.01, 0.2, 0.06, step=0.01)
-promotion_rate = st.sidebar.slider("Promotion Rate", 0.01, 0.15, 0.01, step=0.01)
+promotion_rate = st.sidebar.slider("Promotion Rate", 0.01, 0.10, 0.01, step=0.01)
 years = st.sidebar.slider("Number of Years", 5, 20, 10)
 
 # Run Simulation
